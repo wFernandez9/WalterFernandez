@@ -151,11 +151,6 @@ h1 {
   padding-right: 5px;
 }
 
-.icon:hover {
-  -webkit-animation: shake .25s;
-          animation: shake .25s;
-}
-
 @-webkit-keyframes shake {
   10% {
     -webkit-transform: rotate(15deg);
@@ -192,5 +187,10 @@ h1 {
     -webkit-transform: rotate(-15deg);
             transform: rotate(-15deg);
   }
+}
+
+.icon:hover {
+  -webkit-animation: shake .25s;
+          animation: shake .25s;
 }
 /*# sourceMappingURL=style.css.map */
