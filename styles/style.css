@@ -37,17 +37,6 @@
   border: 2px solid #f81a5c;
 }
 
-.btn0 {
-  height: 45px;
-  width: 35%;
-  outline: none;
-  border: none;
-  background: #f81a5c;
-  color: white;
-  border-radius: 30%;
-  font-weight: 700;
-}
-
 .main {
   background: url(../img/main.jpg) no-repeat;
   height: 70vh;
