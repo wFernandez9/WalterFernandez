@@ -154,3 +154,26 @@ h1 {
 .icon:hover {
     animation: shake .25s;
 }
+
+/* Ejemplo extend
+
+-------------CREO UN BOTON 
+
+.boton {
+	width:200px;
+	height:50px;
+	background-color:white;
+	text-align:center;
+	color:black;
+	border-radius:20px;
+	border:1px solid black;
+}
+ --------COPIO EL BOTON CREADO CON CAMBIOS
+ 
+.boton--aceptar{
+	@extend .boton; 
+	background-color:green;
+	color:yellow;
+}
+
+*/
