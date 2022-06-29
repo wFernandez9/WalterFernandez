@@ -1,3 +1,4 @@
+@import './maps';
 $colorBotones: rgb(248, 26, 92);
 
 * {
@@ -9,22 +10,25 @@ $colorBotones: rgb(248, 26, 92);
 .navbar-brand {
     font-size: 2em;
     font-family: 'Lobster', cursive;
-    color: black;
+    color: map-get($maps, colorNegro);
+    ;
 
     &:hover {
-        color: black;
+        color: map-get($maps, colorNegro);
+        ;
     }
 }
 
 .nav-link {
     margin-right: 10px;
     margin-left: 10px;
-    color: black;
+    color: map-get($maps, colorNegro);
     font-family: 'Rubik', sans-serif;
     text-transform: uppercase;
 
     &:hover {
-        color: black;
+        color: map-get($maps, colorNegro);
+        ;
     }
 }
 
@@ -90,7 +94,7 @@ h1 {
 }
 
 .footer {
-    background-color: black;
+    background-color: map-get($maps, colorNegro);
     color: white;
 
     p {
@@ -102,7 +106,7 @@ h1 {
         width: 55%;
         border: 2px solid white;
         outline: none;
-        background: black;
+        background: map-get($maps, colorNegro);
         color: white;
         margin-top: 20px;
         font-weight: 600;
